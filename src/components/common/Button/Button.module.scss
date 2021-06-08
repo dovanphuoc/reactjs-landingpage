@@ -1,0 +1,30 @@
+.m {
+    padding: 0 27px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    height: 40px;
+    color: #fff;
+}
+
+.primary {
+    background: linear-gradient(-180deg, #399dff 0%, #297dcf 98%);
+}
+
+.green {
+    background: linear-gradient(-180deg, #3db96d 0%, #1b904e 100%);
+}
+
+.floatRight {
+    float: right;
+}
+
+.marginTop {
+    margin-top: 25px;
+}
+
+@media screen and (max-widht: 375px) {
+    .button.dnone {
+        display: none;
+    }
+}

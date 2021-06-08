@@ -1,0 +1,125 @@
+.page {
+    position: relative;
+    padding-top: 78px;
+    & .insetHeader {
+        padding-bottom: 27px;
+        padding-top: 213px;
+        position: relative;
+        margin: -78px 0 30px 0;
+        background: url('https://d1v8dk3ka6obgr.cloudfront.net/v5/assets/global/headers@2x.png');
+        background-size: 1104px 549px;
+    }
+    .noBackground {
+        background: #000;
+    }
+    .background {
+        background: url('https://images.ui8.net/uploads/hero_1541111674653.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(100%) brightness(50%);
+        height: 100%;
+        left: 0;
+        opacity: 0.1;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    .wrapper {
+        max-width: 1484px;
+        padding: 0 60px;
+        margin: auto;
+        position: relative;
+    }
+    .featureProduct {
+        background-color: #00a14f;
+        border-radius: 100px;
+        color: #fff;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 800;
+        padding: 3px 8px 1px;
+        text-transform: uppercase;
+    }
+    .title {
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        color: #fff;
+        line-height: 2;
+        margin-left: 6px;
+    }
+    .meta {
+        display: block;
+        color: #adb7be;
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 6px;
+        padding-bottom: 40px;
+    }
+    .actions {
+        display: flex;
+        bottom: -52px;
+        position: absolute;
+        right: 60px;
+        z-index: 1000;
+        .action {
+            user-select: none;
+            margin-left: 10px;
+            .btn {
+                text-align: center;
+                display: inline-block; 
+                font-weight: 600;
+                white-space: nowrap;
+                text-transform: uppercase;
+                border-radius: 4px;
+                outline: none;
+                border: none;
+                overflow: hidden;
+                vertical-align: middle;
+                font-size: 12px;
+                color: #fff;
+                cursor: pointer;
+                .icon {
+                    font-size: 16px;
+                }
+                .iconDownload {
+                    vertical-align: top;
+                    margin: 0 12px 0 0;
+                    fill: currentColor;
+                }
+                span {
+                    display: block;
+                }
+                .label {
+                    display: inline-block;
+                }
+            }
+            .btn.btnGray {
+                background-color: #484848;
+                padding: 8px 16px;
+                transition: .3s ease all;
+                &:hover {
+                    background-color: #242424;
+                }
+            }
+            .btn.btnGreen {
+                background: linear-gradient(-180deg, #3db96d 0%, #1b904e 100%);
+                padding: 16px 17px 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page .insetHeader .wrapper {
+        padding: 0 20px;
+    }
+    .page .actions .action.actionCmt {
+        display: none;
+    }
+    .page .actions {
+        right: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+.publish {
+    color: #afafaf;
+    font-weight: 300;
+    line-height: 33px;
+    padding: 0 0 40px;
+    .product {
+        color: #afafaf;
+        font-weight: 700;
+    }
+    .avatar {
+        background: url('https://images.ui8.net/res/robot/image/upload/thswb3xtl9t6xsr0yluk/1443685618.png');
+        background-color: #484848;
+        background-size: 32px 32px;
+        border-radius: 2px;
+        display: block;
+        float: left;
+        height: 32px;
+        margin: 0 8px 0 0;
+        width: 32px;
+    }
+    .by {
+        font-size: 14px;
+    }
+    .ui,
+    .category {
+        font-weight: 500;
+        color: #afafaf;
+        transition: .3s ease all;
+        &:hover {
+            color: #2f8be6;
+        }
+    }
+}

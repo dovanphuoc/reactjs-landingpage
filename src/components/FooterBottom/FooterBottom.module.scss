@@ -1,0 +1,50 @@
+.footerColumn {
+    margin-top: 36px;
+    width: 100%;
+    overflow: hidden;
+    .pullLeft {
+        float: left;
+    }
+    .pullRight {
+        float: right;
+    }
+    .copyright {
+        color: #fff;
+        opacity: 0.2;
+        span {
+            font-size: 12px;
+            line-height: 1;
+        }
+    }
+    .payment {
+        font-size: 12px;
+        span {
+            font-size: 12px;
+            line-height: 1;
+            color: #fff;
+        }
+        .icon {
+            vertical-align: middle;
+            font-size: 18px;
+            color: #50595b;
+        }
+        .iconLock {
+            margin-right: 6px;
+            margin-top: -3px;
+        }
+    }
+    .paypal {
+        margin-left: 30px;
+        width: 58px;
+    }
+    .stripe {
+        margin-left: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footerColumn .payment {
+        display: none;
+    }
+}
