@@ -1,5 +1,5 @@
 .m {
-    padding: 0 27px;
+    padding: 0 25px;
     font-size: 12px;
     text-transform: uppercase;
     border-radius: 4px;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-widht: 375px) {
-    .button.dnone {
+    .button.primary {
         display: none;
     }
 }

@@ -7,7 +7,6 @@ function Button({
     type = 'primary',
     floatRight,
     marginTop,
-    dnone
 }) {
     const classNames = [
         styles.button,
@@ -15,7 +14,6 @@ function Button({
         styles[type],
         floatRight ? styles.floatRight : '',
         marginTop ? styles.marginTop : '',
-        dnone ? styles.dnone : ''
     ]
     return (
         <button className={classNames.join(' ')}>{children}</button>

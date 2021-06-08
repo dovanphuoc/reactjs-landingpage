@@ -211,7 +211,7 @@ function Header() {
                             </div>
                         </a>
                     </div>
-                    <Button children="Sign up" type="primary dnone" size="m" />
+                    <Button children="Sign up" type="primary" size="m" />
                 </div>
             </div>
         </div>
